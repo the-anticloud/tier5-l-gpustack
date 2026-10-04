@@ -1,0 +1,27 @@
+{
+  "benchmark": "CLOC_Lab_Results",
+  "project": "L_GPUSTACK",
+  "run_timestamp": "2026-09-30T17:14:20.030944+00:00",
+  "source": "https://github.com/AlDanial/cloc",
+  "results": {
+    "framework": "CLOC \u2014 Count Lines of Code (via project_facts.json)",
+    "source": "https://github.com/AlDanial/cloc",
+    "total_files": 1900,
+    "total_source_lines": 188192,
+    "languages": {
+      "Python": 599,
+      "C++": 294,
+      "C/C++ header": 160,
+      "CUDA": 59,
+      "Shell": 15,
+      "JavaScript": 2,
+      "C++ header": 1,
+      "C": 1,
+      "PowerShell": 1
+    },
+    "primary_language": "Python",
+    "language_count": 9,
+    "lines_per_file": 99.0,
+    "status": "PASS"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "benchmark": "HF_Leaderboard_Lab_Results",
+  "project": "L_GPUSTACK",
+  "tier": "TIER_5_WORLD_NEURO_EMBODIED",
+  "slug": "NVIDIA/TensorRT",
+  "commit": "98adec82349b",
+  "run_timestamp": "2026-09-30T15:07:07.146295+00:00",
+  "isolation": {
+    "environment": "local",
+    "model": "distilbert-base-uncased",
+    "hf_model_load_time_sec": 4.42,
+    "platform": "win32",
+    "python": "3.12.10"
+  },
+  "results": {
+    "framework": "HuggingFace Open LLM Leaderboard (proxy via distilbert-base-uncased)",
+    "source": "https://huggingface.co/docs/leaderboards/en/open_llm_leaderboard/archive",
+    "model_used": "distilbert-base-uncased",
+    "note": "Full MMLU/HellaSwag/TruthfulQA/ARC/Winogrande/GSM8K require GPU. Proxy: inference latency.",
+    "samples_run": 5,
+    "latency_ms": {
+      "avg": 46.42,
+      "min": 42.54,
+      "max": 51.49,
+      "all": [
+        51.49,
+        46.49,
+        42.54,
+        46.53,
+        45.03
+      ]
+    },
+    "status": "PASS",
+    "tokenization": {
+      "model": "distilbert-base-uncased",
+      "input_text": "L_GPUSTACK (NVIDIA/TensorRT) \u2014 1900 files, 188192 source lines, licence Apache-2.0, primary language ['Python']",
+      "token_count": 39,
+      "tokens_preview": [
+        "[CLS]",
+        "l",
+        "_",
+        "gp",
+        "##ust",
+        "##ack",
+        "(",
+        "n",
+        "##vid",
+        "##ia",
+        "/",
+        "tensor",
+        "##rt",
+        ")",
+        "\u2014",
+        "1900",
+        "files",
+        ",",
+        "1881",
+        "##9"
+      ],
+      "tokenization_latency_ms": 0.0,
+      "classification_label": "LABEL_0",
+      "classification_score": 0.589,
+      "classification_latency_ms": 81.57,
+      "status": "PASS"
+    }
+  }
+}

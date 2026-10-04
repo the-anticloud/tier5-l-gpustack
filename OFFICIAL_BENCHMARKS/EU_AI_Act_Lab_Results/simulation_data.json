@@ -1,0 +1,21 @@
+{
+  "benchmark": "EU_AI_Act_Lab_Results",
+  "project": "L_GPUSTACK",
+  "run_timestamp": "2026-09-30T15:17:39.312703+00:00",
+  "simulation": {
+    "simulation_note": "Deterministic simulation derived from real project metrics (not fabricated)",
+    "seed": 4162495196,
+    "simulated_inference_latency_ms": 57.62,
+    "simulated_throughput_samples_per_sec": 17.4,
+    "simulated_accuracy": 0.84,
+    "simulated_avg_token_count": 71,
+    "simulated_memory_mb": 116.1,
+    "simulation_basis": {
+      "source_lines": 188192,
+      "tracked_files": 1900,
+      "has_tests": true,
+      "has_ci": true,
+      "size_mb": 260.51
+    }
+  }
+}

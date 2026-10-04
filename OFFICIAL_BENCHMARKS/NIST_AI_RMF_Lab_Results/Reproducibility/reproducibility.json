@@ -1,0 +1,42 @@
+{
+  "benchmark": "NIST_AI_RMF_Lab_Results",
+  "project": "L_GPUSTACK",
+  "timestamp": "2026-09-30T15:11:19.033679+00:00",
+  "reproducibility_spec": {
+    "framework": "Anticloud Benchmark Reproducibility Standard v1",
+    "based_on": "HELM reproducibility principles (stanford-crfm/helm)",
+    "source": "https://github.com/stanford-crfm/helm"
+  },
+  "environment": {
+    "platform": "win32",
+    "python_version": "3.12.10",
+    "os": "nt",
+    "working_dir": "E:\\fenta\\Downloads\\The Anticloud"
+  },
+  "inputs": {
+    "project_name": "L_GPUSTACK",
+    "slug": "NVIDIA/TensorRT",
+    "commit": "98adec82349b",
+    "tracked_files": 1900,
+    "source_lines": 188192,
+    "licence": "Apache-2.0",
+    "size_mb": 260.51
+  },
+  "inputs_hash": "7ab2e6fe23b25fa0276f6ff51ef2e2a4b3a9aa5ddda661e8abfc36cc986444af",
+  "outputs": {
+    "results_file": "TIER_5_WORLD_NEURO_EMBODIED\\L_GPUSTACK\\OFFICIAL_BENCHMARKS\\NIST_AI_RMF_Lab_Results\\results.json",
+    "results_sha256": "e2af6b38802aac056a72cd0d2d6534608fd8834ef3a7795364400764f90aa1ad"
+  },
+  "reproduction_steps": [
+    "1. Clone Anticloud at commit HEAD",
+    "2. Ensure E:\\fenta\\Downloads\\The Anticloud is present",
+    "3. Run: python run_benchmarks_comprehensive.py",
+    "4. Run: python write_benchmark_subfolders.py",
+    "5. Run: python write_ledgers_repro_extra_benchmarks.py",
+    "6. Verify results_sha256 matches sha256(OFFICIAL_BENCHMARKS/NIST_AI_RMF_Lab_Results/results.json)"
+  ],
+  "hf_model": "distilbert-base-uncased",
+  "hf_source": "https://huggingface.co/distilbert-base-uncased",
+  "random_seeds": "N/A - deterministic static analysis + HF greedy decoding",
+  "notes": "TRL/OSINT/OWASP/SOC2/ISO27001/MITRE/NIST use static code analysis. HF uses live CPU inference."
+}
